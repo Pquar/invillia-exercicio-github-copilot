@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
           participantsHtml = `
             <p><strong>Participants:</strong></p>
             <ul>
-              ${details.participants.map(email => `<li>${email}</li>`).join("")}
+              ${details.participants.map(email => `<li class="participant">${email}</li>`).join("")}
             </ul>
           `;
         } else {
